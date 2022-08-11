@@ -1,6 +1,6 @@
 
 main{
-    width: 80%;
+    width: 95%;
     margin: auto;
 }
 
@@ -11,7 +11,7 @@ main{
 }
 
 .sub-content{
-    margin-top: 10%;
+    margin-top: 5%;
     text-align: justify;
 }
 
@@ -20,6 +20,12 @@ main{
     padding: 2%;
     background-color: rgb(219, 219, 219);
     border-bottom: 2px rgb(99, 99, 99) solid;
+    letter-spacing: 1px;
+}
+.sub-content h3, .sub-content-1 h3{
+    margin: 0;
+    padding: 2%;
+    background-color: rgb(219, 219, 219);
     letter-spacing: 1px;
 }
 
@@ -31,7 +37,7 @@ p{
 .list{
     margin: 2%;
     padding: 1%;
-    background-color: rgba(197, 197, 197, 0.342);
+    background-color: rgb(219, 219, 219);
 }
 
 .list h3{
@@ -49,4 +55,9 @@ p{
     font-style: italic;
     text-transform: uppercase;
     letter-spacing: 5px;
+}
+
+#projetos{
+    margin-top: 10%;
+    margin-bottom: 10%;
 }

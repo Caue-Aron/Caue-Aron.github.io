@@ -1,0 +1,113 @@
+body {
+    background-color: black;
+    color: white;
+
+    margin: 0 0;
+
+    font-family: "Arial";
+    /* letter-spacing: 4px; */
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)), url(images/background3.png);
+    background-size: cover;
+    background-position: center;
+
+    text-align: center;
+}
+
+.header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    white-space: nowrap;
+
+    margin: 0;
+
+    max-width: 100%;
+
+    font-size: 60px;
+
+    text-shadow:
+        -1px 1px #ccc,
+        -2px 2px 0 #a2a2a2,
+        -3px 3px 0 #696969,
+        -4px 4px 0 #434343,
+        -5px 5px 0 #181818,
+        0 6px 1px rgba(0, 0, 0, .1),
+        0 0 5px rgba(0, 0, 0, .1),
+        0 1px 3px rgba(0, 0, 0, .3),
+        0 3px 5px rgba(0, 0, 0, .2),
+        0 5px 10px rgba(0, 0, 0, .25),
+        0 10px 10px rgba(0, 0, 0, .2),
+        0 20px 20px rgba(0, 0, 0, .15);
+}
+
+nav {
+    margin-bottom: 20px;
+
+    position: sticky;
+    top: 0px;
+
+    padding: 30px 8%;
+}
+
+nav button {
+    display: inline-flex;
+    align-items: center;
+
+    background: transparent;
+    color: white;
+
+    border: 1px solid white;
+    border-radius: 6px;
+
+    margin-left: 5px;
+    padding: 7px 10px;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    transition: background 0.15s, color 0.15s;
+}
+
+nav button:hover {
+    background: white;
+    color: black;
+}
+
+/* ---------------------- content ---------------------- */
+.content {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+}
+
+.content h1 {
+    margin-top: 10px;
+    border-bottom: 5px double rgb(203, 203, 203);
+    padding: 0 8px;
+}
+
+.content div {
+    background: transparent;
+    color: white;
+
+    border: 1px solid white;
+    border-radius: 6px;
+
+    padding: 10px 30px;
+
+    margin: 10px 0 10px 0;
+
+    max-width: 75%;
+}

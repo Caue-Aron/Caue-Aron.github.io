@@ -118,3 +118,26 @@ nav button:hover {
 
     max-width: 50%;
 }
+
+/* ---------------------- footer ---------------------- */
+
+.footer {
+    margin-top: 300px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer nav {
+    display: inline-flex;
+    align-items: center;
+}
+
+.footer nav a {
+    margin: 20px;
+}
+
+.footer nav a:hover, .footer nav a:active, .footer nav a:visited, .footer nav a:link {
+    color: rgb(226, 226, 226);
+}

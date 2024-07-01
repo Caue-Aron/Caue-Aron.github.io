@@ -1,3 +1,5 @@
+/*  */
+
 body {
     background-color: #2D2D2D;
     color: #afafaf;
@@ -6,12 +8,19 @@ body {
     font-weight: lighter;
     font-size: 26px;
     font-weight: 400;
+    width: 100%;
+    height: 100%;
+
+    padding: 0px;
+    padding-bottom: 50px;
+    margin: 0px;
 }
 
 header {
-    background-color: #282828;
+    background-color: #242424;
     padding: 20px 0;
     gap: 20px;
+    width: 100%;
 }
 
 #name-container, header {
@@ -20,6 +29,8 @@ header {
     display: flex;
     flex-direction: column;
     gap: 14px;
+    width: 100%;
+    height: 100%;
 }
 
 #name {
@@ -74,17 +85,18 @@ header {
 
 #main-container {
     width: 90%;
-    max-width: 1100px;
+    max-width: 1000px;
     display: flex;
     flex-direction: column;
+    gap: 60px;
 }
 
 .about-container {
     margin-right: 20px;
 }
 
-#skills {
-    margin-bottom: 0;
+#skills, #projects {
+    margin: 0;
 }
 
 .skillset-container {
@@ -100,7 +112,7 @@ header {
 .skill-feature {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 8px;
     justify-content: center;
     align-items: center;
 }
@@ -162,9 +174,90 @@ svg {
 #about-contact {
     display: flex;
     flex-direction: row;
+    gap: 30px;
 }
 
 #skills-container {
     display: flex;
     flex-direction: column;
+}
+
+.svg {
+    width: 18px;
+}
+
+#contact-list {
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+}
+
+.skill-feature .svg {
+    width: 38px;
+}
+
+#contact-list p {
+    display: flex;
+    gap: 8px;
+    flex-direction: row;
+    align-items: center;
+}
+
+#projects-container-helper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects-container-projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.project-card {
+    width: 300px;
+    background-color: #2D2D2D;
+    box-shadow: 0px 0px 10px 4px #242424;
+    padding: 10px 0px;
+}
+
+.project-card p {
+    font-size: 14px;
+    margin: 0;
+    margin: 0px 20px;
+}
+
+.project-card h3 {
+    color: #6c9bbc;
+    font-size: 18px;
+    text-align: center;
+    margin: 0px 20px;
+}
+
+.project-card-more {
+    width: 100%;
+    margin: 8px 0px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+.project-card-divider {
+    border: 0 none;
+    background-color: #242424;
+    height: 1px;
+}
+
+.project-card h4 {
+    font-size: 13px;
+    margin: 0px 20px;
+    width: 35%;
+}
+
+.project-card h4 a {
+    text-decoration: none;
 }

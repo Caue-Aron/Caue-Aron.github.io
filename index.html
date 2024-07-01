@@ -15,13 +15,6 @@
             <p id="name">Aron Cauê Farias Berti</p>
             <p id="occupation">Game developer</p>
         </div>
-    <!--
-        <hr id="header-separator">
-        <div id="header-buttons-container">
-            <button class="header-button" id="header-button-home">HOME</button>
-            <button class="header-button" id="header-button-projects">PROJECTS</button>
-        </div>
-    -->
     </header>
 
     <div style=" width: 100%; display: flex; flex-direction: column; align-items: center;">
@@ -39,13 +32,13 @@
                         I have experience in game design and game programming in general in various tools, such as
                         <span><a href="https://www.love2d.org">Love2D</a></span>,
                         <span><a href="https://coronalabs.com/">Solar2D</a></span>
-                        and <span><a href="https://www.raylib.com/">RayLib</a></span>, alongside the languages I know
+                        and <span><a href="https://www.raylib.com/">raylib</a></span>, alongside the languages I know
                         the most,
-                        Lua, C, Java and Javascript/Typescript.
+                        Lua, Python, C, and Javascript.
                         I'm also a talented <span>Pixel artist</span> and <span>Web developer</span>.
                         I have developed many open sourced games for various platforms including
                         web, mobile, desktop or cross-platform even!
-                        Always searching and looking for new ways to improve and grow every day.
+                        Always searching and looking for new ways to improve every day.
                         <span>#TeamWorkMakesTheDreamWork</span>
                     </p>
                 </div>
@@ -55,13 +48,30 @@
                             Contact
                         </a>
                     </h2>
-                    <p>
-                        E-mail: <a href="caue.profi@gmail.com" target="_blank">caue.profi@gmail.com</a><br>
-                        Phone: <a href="https://api.whatsapp.com/send?phone=5547997892789" target="_blank">+55 (47) 99789-2789</a><br>
-                        GitHub: <a href="https://github.com/Caue-Aron" target="_blank">Caue-Aron</a><br>
-                    </p>
+                    <div id="contact-list">
+                        <p>
+                            Email:
+                            <a href="caue.profi@gmail.com" target="_blank">caue.profi@gmail.com</a>
+                        </p>
+
+                        <p>
+                            Phone:
+                            <a href="https://api.whatsapp.com/send?phone=5547997892789" target="_blank">+55 (47) 99789-2789</a>
+                        </p>
+                        
+                        <p>
+                            <img src="svg/github.svg" class="svg">
+                            <a href="https://github.com/Caue-Aron" target="_blank">Caue-Aron</a>
+                        </p>
+                        
+                        <p>
+                            <img src="svg/linkedin.svg" class="svg">
+                            <a href="https://www.linkedin.com/in/cau%C3%AA-farias-berti-771b061ba" target="_blank">in/cauê-farias-berti</a><br>
+                        </p>
+                    </div>
                 </div>
             </div>
+
             <div id="skills-container">
                 <h2 id="skills">
                     <a class="content-link" href="#skills">
@@ -71,33 +81,96 @@
                 <div class="skillset-container">
                     <h3>LANGUAGES</h3>
                     <div class="skill-feature">
-                        <p>Lua</p>
-                        <p>C</p>
-                        <p>Makefile</p>
-                        <p>Java</p>
-                        <p>JavaScript</p>
-                        <p>SQLite</p>
-                        <p>MySQL</p>
+                        <img src="svg/lua.svg" class="svg"> <p>Lua</p>
+                        <img src="svg/clang.svg" class="svg"> <p>C</p>
+                        <img src="svg/python.svg" class="svg"> <p>Python</p>
+                        <img src="svg/js.svg" class="svg"> <p>JavaScript</p>
+                        <img src="svg/mysql.svg" class="svg" width="46px"> <p>MySQL</p>
                     </div>
                 </div>
                 <div class="skillset-container">
                     <h3>PLATFORMS</h3>
                     <div class="skill-feature">
-                        <p>Windows</p>
-                        <p>Linux</p>
-                        <p>MacOS</p>
-                        <p>Android</p>
-                        <p>Web</p>
+                        <img src="svg/windows.svg" class="svg"> <p>Windows</p>
+                        <img src="svg/android.svg" class="svg"> <p>Android</p>
+                        <img src="svg/web.svg" class="svg"> <p>Web</p>
                     </div>
                 </div>
                 <div class="skillset-container">
                     <h3>TOOLS</h3>
                     <div class="skill-feature">
-                        <p>Love2D</p>
-                        <p>Solar2D</p>
-                        <p>RayLib</p>
-                        <p>Tiled</p>
-                        <p>Aseprite</p>
+                        <img src="svg/solar2d.svg" class="svg"> <p>Solar2D</p>
+                        <img src="svg/raylib.png" class="svg"> <p>Raylib</p>
+                        <img src="svg/aseprite.svg" class="svg"> <p>Aseprite</p>
+                        <img src="svg/tiled.svg" class="svg"> <p>Tiled</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="projects-container">
+                <h2 id="projects">
+                    <a class="content-link" href="#projects">
+                        Projects
+                    </a>
+                </h2>
+                <div id="projects-container-helper">
+                    <div id="projects-container-projects">
+                        <div class="project-card" id="project-test">
+                            <!-- <img src="projects/test.jpg"> -->
+                            <h3>Test Project</h3>
+                            <hr class="project-card-divider">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Officiis consectetur adipisci est dolorum id beatae praesentium ex
+                                suscipit similique quaerat soluta doloribus aut cupiditat
+                            </p>
+                            <hr class="project-card-divider">
+                            <div class="project-card-more">
+                                <h4><a href="#project-test">READ MORE ...</a></h4>
+                            </div>
+                        </div>
+                        <div class="project-card" id="project-test">
+                            <!-- <img src="projects/test.jpg"> -->
+                            <h3>Test Project</h3>
+                            <hr class="project-card-divider">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Officiis consectetur adipisci est dolorum id beatae praesentium ex
+                                suscipit similique quaerat soluta doloribus aut cupiditat
+                            </p>
+                            <hr class="project-card-divider">
+                            <div class="project-card-more">
+                                <h4><a href="#project-test">READ MORE ...</a></h4>
+                            </div>
+                        </div>
+                        <div class="project-card" id="project-test">
+                            <!-- <img src="projects/test.jpg"> -->
+                            <h3>Test Project</h3>
+                            <hr class="project-card-divider">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Officiis consectetur adipisci est dolorum id beatae praesentium ex
+                                suscipit similique quaerat soluta doloribus aut cupiditat
+                            </p>
+                            <hr class="project-card-divider">
+                            <div class="project-card-more">
+                                <h4><a href="#project-test">READ MORE ...</a></h4>
+                            </div>
+                        </div>
+                        <div class="project-card" id="project-test">
+                            <!-- <img src="projects/test.jpg"> -->
+                            <h3>Test Project</h3>
+                            <hr class="project-card-divider">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Officiis consectetur adipisci est dolorum id beatae praesentium ex
+                                suscipit similique quaerat soluta doloribus aut cupiditat
+                            </p>
+                            <hr class="project-card-divider">
+                            <div class="project-card-more">
+                                <h4><a href="#project-test">READ MORE ...</a></h4>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
